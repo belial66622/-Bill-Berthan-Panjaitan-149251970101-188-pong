@@ -57,7 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\PaddleController.cs" />
+    <Compile Include="Assets\Script\MainMenuController.cs" />
     <Compile Include="Assets\Script\BallController.cs" />
+    <Compile Include="Assets\Script\Scoremanager.cs" />
+    <Compile Include="Assets\Script\ScoreController.cs" />
+    <Compile Include="Assets\Script\Tambahskor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
