@@ -24,11 +24,14 @@ public class PaddleController : MonoBehaviour
 
         if (Input.GetKey(upKey))
         {
+            Debug.Log("Gerak euy: " + speed);
             return Vector2.up * speed;
         }
         else if (Input.GetKey(downKey))
         {
+            Debug.Log("Gerak euy: " + speed);
             return Vector2.down * speed;
+  
         }
 
         return Vector2.zero;
@@ -36,6 +39,8 @@ public class PaddleController : MonoBehaviour
 
     private void MoveObject(Vector2 movement)
     {
+
+       // Debug.Log("Gerak euy: " + movement);
         rig.velocity = movement;
     }
 }
