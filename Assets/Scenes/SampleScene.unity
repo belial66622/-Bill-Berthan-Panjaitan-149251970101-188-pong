@@ -340,8 +340,8 @@ MonoBehaviour:
   ball: {fileID: 689987157}
   manager: {fileID: 793697873}
   Despawn: 8
-  kanan: {fileID: 2058902019}
-  kiri: {fileID: 709252099}
+  kanan: {fileID: 709252099}
+  kiri: {fileID: 2058902019}
 --- !u!212 &203529976
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -383,7 +383,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2747690628134850419, guid: 16037dbd798344f57a526d53d48f5ead, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.7075472, b: 0.10169554, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
